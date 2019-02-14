@@ -6,7 +6,7 @@ The assignment requires taking data about opioid presciptions and claims accordi
 The files in the zip consists of the following:
 
 - CreateDatabaseAndStagingTable_2.sql
-This is the first sql run to create a database and all the necessary tables.
+\nThis is the first sql run to create a database and all the necessary tables.
 
 - Opioid_StagingWarehousingArchiving.dtsx
 
