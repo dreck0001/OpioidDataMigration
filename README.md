@@ -7,10 +7,16 @@ The files in the zip consists of the following:
 
 - CreateDatabaseAndStagingTable_2.sql
 
-this is the first sql run to create a database and all the necessary tables.
-- CreateDatabaseAndStagingTable_2.sql
-this is
-- CreateDatabaseAndStagingTable_2.sql
-this is
-- CreateDatabaseAndStagingTable_2.sql
-this is
+This is the first sql run to create a database and all the necessary tables.
+
+- Opioid_StagingWarehousingArchiving.dtsx
+
+This is the SSIS project package which holds the control flow, which first runs the above file, reads the excel source files in a ForEach Loop and loads the data into staging and archiving area tables, and stores metadata in an audit table.
+
+- h4_Toad_model.txp
+
+A pictoial description of the dataflow done with Toad Data Modeler 
+
+- hw4_Explanation.docx
+
+More explanations with annotated screenshot that descibe the entire project
